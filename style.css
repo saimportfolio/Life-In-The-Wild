@@ -1,0 +1,138 @@
+body{
+
+	background: linear-gradient(10deg, rgba(2,0,36,1) 1%, rgba(3,1,48,1) 7%, rgba(4,10,71,1) 11%, rgba(8,34,137,1) 34%, rgba(6,68,159,1) 50%, rgba(0,212,255,1) 100%);
+	text-decoration: none;
+}
+
+.container{
+	display:  flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+
+	font-family: 'Poppins';
+	font-size: 3em;
+	border-bottom: 2px solid pink;
+	border-right: 2px solid pink;
+	border-left: 2px solid pink;
+	box-shadow: 4px 4px 5px #67676767;
+	margin-top: 6px;
+	background: teal;
+	width: 9.5em;
+	padding: 8px;
+	text-align: center;
+
+
+}	
+
+
+h1:hover{
+
+	color: white;
+	background-color:#303030;
+	transition: .5s;
+	cursor: pointer;
+
+}
+
+
+img{
+	width: 400px;
+	height: 290px;
+	margin: 10px;
+	border: 20px solid rgba(49,100,100,99);
+
+}
+img:hover{
+	transform: scale(1.1);
+	padding: 2px;
+	transition: 1s;
+	cursor: pointer;
+	
+	
+}
+
+footer{
+	font-size: 40px;
+	margin: 0px;
+	margin-top: 1em;
+	border-top: solid black;
+	text-align: center;
+	font-family: 'Poppins';
+	background: #303030;
+	padding: 40px;
+
+}
+
+.fa-github{
+	border: transparent;
+	background-color: #075ca6;
+	color: black;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+.fa-linkedin{
+	border: transparent;
+	background-color: #075ca6;
+	color: black;
+	padding: 7px;
+	border-radius: 10px;
+}
+
+.fa-linkedin:hover{
+	background: var(--clr);
+	box-shadow: 0 0 50px var(--clr);
+	transition: .7s;
+	transform: scale(1.1);	
+
+}
+
+.fa-github:hover{
+	background: var(--clr);
+	box-shadow: 0 0 50px var(--clr);
+	transition: .5s;
+	transform: scale(1.1);	
+
+}
+
+.text{
+	font-size: 25px;
+	color: white;
+}
+i{
+	color: #0da5d4;
+}
+
+.button{
+
+	border:5px solid #075ca6;
+	box-shadow: 0px 0px 35px #075ca6;
+	border-width: 3.5px;
+    border-radius: 100px;
+	text-align: center;
+	font-size: 25px;
+	background-color: #075ca6;
+	padding: 4px;
+	margin-left: 480px;
+	margin-right: 480px;
+	color: white;
+	margin-top: 6px;
+	text-decoration: none;
+}
+
+.button:hover{
+	background: var(--clr);
+	box-shadow: 0px 0px 35px var(--clr);
+	transition: .5s;
+	letter-spacing: 1.5px;
+	border-width: 3.5px;
+	padding: 4px;
+	text-decoration: none;
+
+}
+
+.link:hover{
+	text-decoration: none;
+}
